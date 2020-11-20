@@ -17,7 +17,7 @@ info:
 
 ############################### Navigation Bar ############################### > start
 navbar:
-  visiable: auto # always, auto
+  visiable: always # always, auto
   logo: # choose [img] or [icon + title]
     img:
     icon:
@@ -88,7 +88,7 @@ cover:
 pages:
   # 友链页面配置
   friends:
-    layout_scheme: traditional # simple: 简单布局, traditional: 传统布局,  sites: 网站卡片布局
+    layout_scheme: sites # simple: 简单布局, traditional: 传统布局,  sites: 网站卡片布局
 
 ############################### Article Layout ############################### > start
 # 文章布局
@@ -159,7 +159,7 @@ article:
       # 默认文章作者（可在 front-matter 中覆盖）
       author:
         avatar:
-        name: 请设置文章作者
+        name:
         url: /
       # 文章创建日期
       date:
@@ -543,7 +543,7 @@ plugins:
 
   # Slide Background
   backstretch:
-    enable: #true
+    enable: true
     js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
     position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist

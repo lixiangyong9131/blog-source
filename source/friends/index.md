@@ -5,5 +5,5 @@ cover: true
 comments: false
 ---
 {% sitegroup %}
-{% site xiaopeng, url=http://mt2.larva.fun, screenshot=http://r.photo.store.qq.com/psc?/V539H6Yt0ZWMjP0YKS3a36LAS62PKgGv/TmEUgtj9EK6.7V8ajmQrEB6UUxeTTo6Sa3BG30ZjNWy5VYtR*dvY4JWn0lfDuGHIVxHGk7J*KOx42UaDZTPXiNUUS2uiYeUaJoWGX5*LHDI!/r, avatar=http://r.photo.store.qq.com/psc?/V539H6Yt0ZWMjP0YKS3a36LAS62PKgGv/TmEUgtj9EK6.7V8ajmQrEBwMBCw.fMVABLB5sc4lTrop2hDU3EBlQyTTpXVy2*crWIAmkm7IoVVyglIFe8w0XYmDD8nGZ*BcX4h6kX2wmk4!/r, description=我叫MT攻略 %}
+{% site xiaopeng, url=http://mt2.larva.fun, screenshot=https://cdn.jsdelivr.net/gh/lixiangyong9131/blog-source/themes/my-volantis/source/picture/larva.png, avatar=https://cdn.jsdelivr.net/gh/lixiangyong9131/blog-source/themes/my-volantis/source/picture/傻馒原色.png, description=我叫MT攻略 %}
 {% endsitegroup %}

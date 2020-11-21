@@ -112,7 +112,7 @@ article:
   body:
     # 文章顶部信息
     # 从 meta_library 中取
-    top_meta: [category, date, counter] #author
+    top_meta: [author, category, date, counter] #author
     # ----------------
     # 文章页脚组件
     footer_widget:
@@ -154,12 +154,14 @@ article:
     # 文章底部信息
     # 从 meta_library 中取
     bottom_meta: [updated, tags, share]
+    sidebar: [grid, toc, tags]
+    comments: false
     # meta library
     meta_library:
       # 默认文章作者（可在 front-matter 中覆盖）
       author:
         avatar:
-        name:
+        name: ibuyu
         url: /
       # 文章创建日期
       date:
@@ -795,7 +797,7 @@ color_scheme:
 custom_css:
   toc_smooth: true # TOC 目录平滑滚动效果
   cursor:
-    enable: #true
+    enable: true
     text: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png
     pointer: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png
     default: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png

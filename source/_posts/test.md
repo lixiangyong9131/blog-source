@@ -5,14 +5,6 @@ categories: 新手入门
 cover: true
 comments: false
 pin: true
-author:
-  name: 作者
-  avatar: https://img.vim-cn.com/a1/d53c11fb5d4fd69529bc805d385fe818feb3f6.png
-  url: https://baidu.com
-music:
- server: netease
- type: song
- id: 16846091
 ---
 欢迎访问，干货博客持续输出中...
 

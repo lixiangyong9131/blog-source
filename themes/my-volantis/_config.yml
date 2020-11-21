@@ -160,7 +160,7 @@ article:
     meta_library:
       # 默认文章作者（可在 front-matter 中覆盖）
       author:
-        avatar:
+        avatar: http://m.qpic.cn/psc?/V539H6Yt0ZWMjP0YKS3a36LAS62PKgGv/TmEUgtj9EK6.7V8ajmQrEDKER0YKL9wZkSp*lC6uu19xcKo9n6deJHyB0qKr67E*hPZ8mMiSK5yiu02A5zRW2C7orgK0s5SOUsIoNRIOWa0!/b&bo=5gDaAAAAAAABFww!&rf=viewer_4
         name: ibuyu
         url: /
       # 文章创建日期

@@ -5,6 +5,8 @@ bottom_meta: false
 sidebar: []
 valine:
   placeholder: 有什么想对我说的呢？
+cover: true
+comments: false
 ---
 
 ## 我是谁

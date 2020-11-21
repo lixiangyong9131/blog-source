@@ -552,10 +552,10 @@ plugins:
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static@master/picture/cover/4KtXipZL7UY.jpg
-      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static@master/picture/cover/JwOrT2YNIYg.jpg
-      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static@master/picture/cover/Amn6LzHd918.jpg
-      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static@master/picture/cover/kbEo2rf5mR0.jpg
+      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/cover/panda.jpg
+      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/cover/nangua.jpg
+      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/cover/dog1.jpg
+      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/cover/fj1.jpg
 #      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/001.jpg
 #      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/002.jpg
 #      - https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/003.jpg

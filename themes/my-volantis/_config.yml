@@ -797,7 +797,7 @@ color_scheme:
 custom_css:
   toc_smooth: true # TOC 目录平滑滚动效果
   cursor:
-    enable: true
+    enable: #true
     text: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png
     pointer: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png
     default: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png

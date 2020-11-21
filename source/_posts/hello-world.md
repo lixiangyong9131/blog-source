@@ -1,5 +1,6 @@
 ---
 title: Hello World
+icons: [fas fa-fire red, fas fa-star green] #可以通过 red / blue / green / yellow / orange / theme / accent 来设置图标的颜色
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

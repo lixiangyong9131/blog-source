@@ -328,7 +328,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop] # [desktop, mobile]
-      avatar: https://cdn.jsdelivr.net/gh/lixiangyong9131/static/portrait/pandatx.png
+      avatar: https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/portrait/pandatx.png
       shape: rectangle # circle, rectangle
       url: /about/
       title:

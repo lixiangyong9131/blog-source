@@ -328,7 +328,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop] # [desktop, mobile]
-      avatar: https://static.oschina.net/uploads/space/2015/0629/170157_gMYa_1767531.jpg
+      avatar: https://cdn.jsdelivr.net/gh/lixiangyong9131/static/portrait/pandatx.png
       shape: rectangle # circle, rectangle
       url: /about/
       title:

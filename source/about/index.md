@@ -6,7 +6,8 @@ sidebar: []
 valine:
   placeholder: 有什么想对我说的呢？
 cover: true
-comments: false
+valine:
+  placeholder: 你好呀
 ---
 {% span cyan center logo large, 写在前面 %}
 {% span center small, 博客背后的故事 %}

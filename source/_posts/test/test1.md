@@ -4,7 +4,6 @@ tags: 测试
 categories: 新手入门
 cover: true
 comments: false
-pin: true
 ---
 
 # 测试文档

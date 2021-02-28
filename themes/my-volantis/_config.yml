@@ -56,7 +56,7 @@ cover:
   background: https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/025.jpg
   logo: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-Cover@3x.png
   title: 'ibuyu'
-  subtitle: '你我皆打工,生在人世间'
+  subtitle: '晴朗,不语  阴天,不语'
   search: A Wonderful Theme for Hexo # search bar placeholder
 #  features:
 #    - name: 文档
@@ -328,11 +328,11 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop] # [desktop, mobile]
-      avatar: https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/portrait/pandatx.png
+      avatar: https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/portrait/dudi.jpeg
       shape: rectangle # circle, rectangle
       url: /about/
       title:
-      subtitle: 一个帅气的打工人
+      subtitle: 心情杂货铺老板
       jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
         - icon: fas fa-rss
@@ -552,7 +552,7 @@ plugins:
     duration: 10000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
     images:               # For personal use only. At your own risk if used for commercial purposes !!!
-      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/cover/panda.jpg
+#      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/cover/panda.jpg
       - https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/cover/nangua.jpg
       - https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/cover/dog1.jpg
 #      - https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/cover/fj1.jpg

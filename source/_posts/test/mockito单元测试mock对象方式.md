@@ -19,7 +19,7 @@ pin: false
    <dependency>
      <groupId>org.mockito</groupId>
      <artifactId>mockito-all</artifactId>
-   	<version>1.9.5</version>
+     <version>1.9.5</version>
    </dependency>
    ```
 

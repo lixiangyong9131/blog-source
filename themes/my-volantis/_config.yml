@@ -217,7 +217,7 @@ comments:
     appId: 5Urb0Gz2WHLv2mDXlk8uhuRn-gzGzoHsz # your appId
     appKey: 9OFC1WVKpjyxuX356WhlRU99 # your appKey
     js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
-    path: window.location.pathname # 全局评论地址
+    #path: window.location.pathname # 全局评论地址
     placeholder: 快来评论吧~  # 评论占位提示
     meta: nick,mail,link # valine comment header info
     requiredFields: ['nick','mail']

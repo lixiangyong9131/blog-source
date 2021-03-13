@@ -31,7 +31,7 @@ pin: false
 
    @InjectMocks
 
-   {% image https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/blog/mockito1.png, width=500px,height=500px %}
+   {% image https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/blog/mokito1.png, width=500px,height=500px %}
 
 4. 相关说明
 

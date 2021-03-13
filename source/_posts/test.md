@@ -4,7 +4,7 @@ tags: 测试
 categories: 新手入门
 cover: true
 comments: false
-pin: true
+pin: false
 ---
 欢迎访问，干货博客持续输出中...
 

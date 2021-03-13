@@ -31,7 +31,7 @@ pin: false
 
    @InjectMocks
 
-   {% image https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/blog/mokito1.png, width=500px,height=500px %}
+   {% image https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/blog/mokito1.png, width=400px,height=200px %}
 
 4. 相关说明
 
@@ -57,6 +57,6 @@ pin: false
 
 3. 示例如下
 
-   {% image https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/blog/mockito2.png, width=500px,height=500px %}
+   {% image https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/blog/mockito2.png, width=400px,height=200px %}
 
-   {% image https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/blog/mockito3.png, width=500px,height=500px %}
+   {% image https://cdn.jsdelivr.net/gh/lixiangyong9131/static/picture/blog/mockito3.png, width=400px,height=200px %}

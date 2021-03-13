@@ -219,8 +219,8 @@ comments:
     js: https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js
     #path: window.location.pathname # 全局评论地址
     placeholder: 快来评论吧~  # 评论占位提示
-    meta: nick,mail,link # valine comment header info
-    requiredFields: ['nick','mail']
+    meta: nick # ,mail,link valine comment header info
+    requiredFields: ['nick'] #,'mail'
     enableQQ: true # Unstable avatar link
     recordIP: false # Record commenter IP
     avatar: robohash # gravatar style https://valine.js.org/avatar

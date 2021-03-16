@@ -42,9 +42,8 @@ public @interface SpringBootApplication {
 
 即JavaConfig形式的spring ioc容器的配置类。
 
-任何一个标注了@Configuration的Java类定义都是一个JavaConfig配置类。
-
-任何一个标注了@Bean的方法，其返回值将作为一个bean定义注册到Spring的IoC容器，方法名将默认成该bean定义的id。
+- 任何一个标注了@Configuration的Java类定义都是一个JavaConfig配置类。
+- 任何一个标注了@Bean的方法，其返回值将作为一个bean定义注册到Spring的IoC容器，方法名将默认成该bean定义的id。
 
 ## @ComponentScan
 
@@ -76,7 +75,7 @@ public @interface EnableAutoConfiguration {
 
 ## SpringFactoriesLoader
 
-SpringFactoriesLoader属于Spring框架私有的一种扩展方案(类似于Java的SPI方案java.util.ServiceLoader)，是Spring工厂加载器，加载所有META-INF/spring.factories文件中的工厂类。
+属于Spring框架私有的一种扩展方案(类似于Java的SPI方案java.util.ServiceLoader)，是Spring工厂加载器，加载所有META-INF/spring.factories文件中的工厂类。
 包含三个静态方法：
 
 - loadFactories：加载指定的factoryClass并进行实例化。

@@ -1,13 +1,3 @@
----
-title: springboot之@EnableAutoConfiguration自动装配
-tags: springboot
-categories: springboot
-cover: true
-comments: true
-pin: false
----
-
-
 ## springboot是如何自动装配的？
 
 从springboot启动类只有一个注解@SpringBootApplication。直接查看@SpringBootApplication代码：

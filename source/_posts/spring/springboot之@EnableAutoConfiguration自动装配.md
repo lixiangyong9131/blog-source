@@ -1,3 +1,13 @@
+---
+title: springboot之@EnableAutoConfiguration自动装配.md
+tags: springboot
+categories: springboot
+cover: true
+comments: true
+pin: false
+---
+
+
 ## springboot是如何自动装配的？
 
 从springboot启动类只有一个注解@SpringBootApplication。直接查看@SpringBootApplication代码：
@@ -61,11 +71,13 @@ public @interface EnableAutoConfiguration {
 }
 ```
 
-里面最关键的是@Import(EnableAutoConfigurationImportSelector.class)，借助EnableAutoConfigurationImportSelector，@EnableAutoConfiguration可以帮助SpringBoot应用将所有符合条件的@Configuration配置都加载到当前SpringBoot创建并使用的IOC容器。该配置模块的主要使用到了SpringFactoriesLoader。
+里面最关键的是@Import(EnableAutoConfigurationImportSelector.class)，借助EnableAutoConfigurationImportSelector，帮助SpringBoot应用将所有符合条件的@Configuration配置都加载到当前SpringBoot创建并使用的IOC容器。
+该配置模块主要使用到了SpringFactoriesLoader。
 
 ## SpringFactoriesLoader
 
-SpringFactoriesLoader属于Spring框架私有的一种扩展方案(类似于Java的SPI方案java.util.ServiceLoader)，是Spring工厂加载器，加载所有META-INF/spring.factories文件中的工厂类。包含三个静态方法：
+SpringFactoriesLoader属于Spring框架私有的一种扩展方案(类似于Java的SPI方案java.util.ServiceLoader)，是Spring工厂加载器，加载所有META-INF/spring.factories文件中的工厂类。
+包含三个静态方法：
 
 - loadFactories：加载指定的factoryClass并进行实例化。
 - loadFactoryNames：加载指定的factoryClass的名称集合。

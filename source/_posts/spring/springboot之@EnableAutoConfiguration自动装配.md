@@ -1,5 +1,5 @@
 ---
-title: springboot之@EnableAutoConfiguration自动装配.md
+title: springboot之@EnableAutoConfiguration自动装配
 tags: springboot
 categories: springboot
 cover: true
@@ -71,7 +71,7 @@ public @interface EnableAutoConfiguration {
 }
 ```
 
-里面最关键的是@Import(EnableAutoConfigurationImportSelector.class)，借助EnableAutoConfigurationImportSelector，帮助SpringBoot应用将所有符合条件的@Configuration配置都加载到当前SpringBoot创建并使用的IOC容器。
+里面最关键的是@Import(EnableAutoConfigurationImportSelector.class)，此Selector，帮助SpringBoot应用将所有符合条件的@Configuration配置都加载到当前SpringBoot创建并使用的IOC容器。
 该配置模块主要使用到了SpringFactoriesLoader。
 
 ## SpringFactoriesLoader
